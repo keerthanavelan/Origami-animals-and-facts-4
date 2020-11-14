@@ -1,0 +1,76 @@
+h1{
+    color:white;
+    border-style: inset;
+    display: flex;
+    justify-content: center;
+    /* background-color: rgb(247, 193, 193); */
+    text-shadow: mediumslateblue 4px 3px 0px;
+    
+}
+.notice{
+    background-image: url("images/bg.gif");
+}
+img{
+    border: 5px;
+    color: white;
+    border-style: inset;
+    -webkit-box-shadow: 10px 11px 11px 7px rgba(255,255,255,0.68); 
+    box-shadow: 10px 11px 11px 7px rgba(255,255,255,0.68);
+    
+}
+    a:link{
+        color: white;
+    }
+    a:visited{
+        color: grey;
+    }
+*{
+    background-image: url("images/back.gif");
+    font-family: "mv boli"
+}
+h2{
+    color: white;
+    border-style: inset;
+    display: flex;
+    justify-content: center;
+}
+h3{
+    color: white;
+    border-style: inset;
+}
+p{
+    color: darkturquoise;
+}
+.header{
+    background-size: cover;
+    background-image: url("images/flower.jpg");
+    /* background-image: linear-gradient(darkblue, black); */
+    color: white;
+    border-color: darkblue;
+    border: 10px;
+    border-style: inset;
+    padding: 100px;
+}
+.grid{
+    display: flex;
+    justify-content: space-evenly;
+    background-image: url("images/bg.gif");
+}
+.item{
+    color: white;
+    border: solid;
+    background-image: url("images/bg.gif");
+    padding: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    opacity:0.1
+}
+.item:hover{
+    opacity: 1;
+}
+a:visited{
+    color: antiquewhite;
+}
+.img:hover{
+    transform: scale(1.2);
+}
